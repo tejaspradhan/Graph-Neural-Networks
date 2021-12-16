@@ -50,4 +50,4 @@ Oversmoothing causes all nodes to contain the same information. This makes the n
 
 # References 
 1. [Deepfindr Graph Neural Networks Playlist](https://youtube.com/playlist?list=PLV8yxwGOxvvoNkzPfCx2i8an--Tkt7O8Z)
-2. [CS224W Machine Learning With Graphs]()
+2. [CS224W Machine Learning With Graphs](https://youtube.com/playlist?list=PLoROMvodv4rPLKxIpqhjhPgdQy7imNkDn)
