@@ -1,2 +1,39 @@
-# Graph-Neural-Networks
-This is a collection of all my learning material and implementations of Graph Neural Nets
+# Introduction
+
+Graph Neural Networks take the concept of Graph data structure and try to model these graphs using machine learning. Most of the real world data can be modelled as a graph. This helps in creating a lot of good structures between the data. Applying machine learning to such graph data can help in giving solutions to a lot of problems like - protein folding, drug discovery, ETA prediction based on traffic.
+
+**Geometric Deep Learning** - The machine learning area around research related to GNNs.
+
+**Representation Learning** - Learning neural networks for suitable representation of graph data
+
+* A typical Graph neural network uses representation learning to transform graph data into `node level embeddings` which are vectors which contain certain structural information and features about each node. These node embedding vectors can be used to perform predictions. How we use these representations depends on the ML task we are performing.
+* A key idea here is that similar nodes will lead to similar node embeddings and therefore, similar graphs will lead to similar graph embeddings.
+
+<br>
+
+## Graph ML Tasks
+1. **Node Level Predictions** - Classify / Predict Attributes of Nodes
+2. **Edge Level or Link Predictions** - Predicting whether an edge will exist between certain nodes in a graph
+3. **Sub-graph Level Predictions**
+4. **Complete Graph Level Predictions**
+
+<br>
+
+## Difficulties while creating Neural Network with Graph Input
+1. Graphs can have different shapes and sizes. Neural nets, however,  need a fixed size input. 
+2. Isomorphism of graphs. This means that the NN algorithm which uses graph inputs should be `permutation invariant`
+3. Many metrics like euclidean distance are not defined for graphs.
+
+<br>
+<br>
+
+# Graph Neural Networks
+
+1. Every GNN is composed of certain `message passing layers` which help in converting the graph input into suitable graph representations with node embeddings.
+2. Information about neighbouring nodes is collected and certain operations are performed on them, which is followed by updating the node feature information - `Graph Convolutions`
+
+<img src="https://miro.medium.com/max/1838/1*0rj1Pxlzyqkg_rrZiyRDNw.png">
+
+## What happens in Message Passing Layers? 
+
+         
