@@ -44,6 +44,5 @@ Graph Neural Networks take the concept of Graph data structure and try to model 
 This completes one graph convolution. This 4 step process can be done multiple times - depending on the number of message passing layers in the GNN.
 
 
-<img src="https://github.com/tejaspradhan/Graph-Neural-Networks/blob/main/images/message-passing.png">
-
+<img src="https://github.com/tejaspradhan/Graph-Neural-Networks/blob/main/images/graph-conv.png">
          
