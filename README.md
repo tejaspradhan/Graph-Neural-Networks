@@ -46,7 +46,18 @@ The number of message passing(MP) layers is a hyperparameter. Stacking too many 
 Oversmoothing causes all nodes to contain the same information. This makes the nodes indistinguishable from eachother.
 
 <img src="https://github.com/tejaspradhan/Graph-Neural-Networks/blob/main/images/graph-conv.png">
-         
+
+In a nutshell, we can use the below equation to generalise the entire operation of message passing layers in a GNN
+
+<img src="https://github.com/tejaspradhan/Graph-Neural-Networks/blob/main/images/mp-equation.png">
+<br>
+<br>
+
+# Common GNN Variants
+1. Graph Convolutional Network - Kipf and Welling
+2. MLP as Aggregator
+3. Graph Attention Networks
+4. Gated GNNs
 
 # References 
 1. [Deepfindr Graph Neural Networks Playlist](https://youtube.com/playlist?list=PLV8yxwGOxvvoNkzPfCx2i8an--Tkt7O8Z)
