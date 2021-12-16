@@ -34,6 +34,16 @@ Graph Neural Networks take the concept of Graph data structure and try to model 
 
 <img src="https://miro.medium.com/max/1838/1*0rj1Pxlzyqkg_rrZiyRDNw.png">
 
-## What happens in Message Passing Layers? 
+## What happens in Message Passing Layers?
+
+1. Consider `node 1`. Collect node information `h1` at time step `k`.
+2. For all nodes i adjacent to node 1, gather information `hi` at time step `k`.
+3. Aggregate Node information.
+4. Update information about node 1 based on aggregated information about neighbouring nodes for time step `k+1`
+
+This completes one graph convolution. This 4 step process can be done multiple times - depending on the number of message passing layers in the GNN.
+
+
+<img src="https://github.com/tejaspradhan/Graph-Neural-Networks/blob/main/images/message-passing.png">
 
          
