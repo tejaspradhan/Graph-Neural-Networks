@@ -42,7 +42,12 @@ Graph Neural Networks take the concept of Graph data structure and try to model 
 4. Update information about node 1 based on aggregated information about neighbouring nodes for time step `k+1`
 
 This completes one graph convolution. This 4 step process can be done multiple times - depending on the number of message passing layers in the GNN.
-
+The number of message passing(MP) layers is a hyperparameter. Stacking too many message passing layers can cause something called `oversmoothing`
+Oversmoothing causes all nodes to contain the same information. This makes the nodes indistinguishable from eachother.
 
 <img src="https://github.com/tejaspradhan/Graph-Neural-Networks/blob/main/images/graph-conv.png">
          
+
+# References 
+1. [Deepfindr Graph Neural Networks Playlist](https://youtube.com/playlist?list=PLV8yxwGOxvvoNkzPfCx2i8an--Tkt7O8Z)
+2. [CS224W Machine Learning With Graphs]()
