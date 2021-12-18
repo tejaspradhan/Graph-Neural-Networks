@@ -58,6 +58,22 @@ In a nutshell, we can use the below equation to generalise the entire operation 
 2. MLP as Aggregator
 3. Graph Attention Networks
 4. Gated GNNs
+<br>
+
+## Link Prediction
+
+* Predict new links / edges between nodes in a graph based on previous existing links.
+* 2 main Approaches
+  1. Predict missing links at random
+  2. Predict missing links over time - The links might not be present in the graphs at timestep `t` but will be present later (predicted) 
+
+**Link Level Features**
+1. Distanced based Features - Shortest path distance (Dijktra's) between 2 nodes
+2. Local Neighbourhood overlap - How many neighbours do 2 nodes have in common
+   * Common Neighbors
+   * Jaccard Co-efficient
+   * Adamic Adar Index
+4. Global Neigbourhood Overlap 
 
 # References 
 1. [Deepfindr Graph Neural Networks Playlist](https://youtube.com/playlist?list=PLV8yxwGOxvvoNkzPfCx2i8an--Tkt7O8Z)
