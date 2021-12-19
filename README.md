@@ -87,10 +87,9 @@ In a nutshell, we can use the below equation to generalise the entire operation 
 **1. Graphlet Kernel**
 
 * Count the number of graphlets in the graph of size k. Graphlets need not be connected or rooted.
-
 * [More on Graphlet Kernel](https://ethz.ch/content/dam/ethz/special-interest/bsse/borgwardt-lab/documents/slides/BNA09_3_4.pdf)
+* Problem is that calculating graphlets is computationally complex.
 
-* Problem is that calculating graphlets is computationally complex
 
 
 **2. Weisfeiler-Lehman Kernel**
