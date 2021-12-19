@@ -4,7 +4,9 @@
 2. Link Prediction
 3. Graph/ Sub-graph Prediction
 
-<img src="">
+<img src="https://github.com/tejaspradhan/Graph-Neural-Networks/blob/main/images/graph-ml.png">
+
+
 ## Node Classification/ Prediction
 
 * Classify every node of the graph based on its node features
