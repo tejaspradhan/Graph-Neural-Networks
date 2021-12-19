@@ -6,12 +6,14 @@ Graph Neural Networks take the concept of Graph data structure and try to model 
 
 [1. Basics of Graph Neural Networks](https://github.com/tejaspradhan/Graph-Neural-Networks/blob/main/notes/basics.md)
 
-[2. Graph Machine Learning Tasks in Detail]()
+[2. Graph Machine Learning Tasks in Detail](https://github.com/tejaspradhan/Graph-Neural-Networks/blob/main/notes/graph_ml.md)
 
-[3. ]
+[3. Node Embeddings](https://github.com/tejaspradhan/Graph-Neural-Networks/blob/main/notes/node_embeddings.md)
 
 
 
+
+# Papers
 
 
 # References 
