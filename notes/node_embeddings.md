@@ -13,4 +13,10 @@
 2. Decoder calculates similarity score of the embedding.
 3. If the similar nodes dont have a good similarity score, the embeddings are optimised. 
 
-<img src="">
+<img src="https://github.com/tejaspradhan/Graph-Neural-Networks/blob/main/images/node-enc-dec.png">
+
+**Random walk optimisation is used to learn node embeddings**
+
+<img src="https://github.com/tejaspradhan/Graph-Neural-Networks/blob/main/images/node-emb-1.png">
+
+<img src="https://github.com/tejaspradhan/Graph-Neural-Networks/blob/main/images/node-emb-2.png">
